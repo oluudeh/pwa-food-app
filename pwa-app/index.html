@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+	<title>GDG FastFood</title>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" type="text/css" href="css/bulma.min.css">-->
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+
+    <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+<script>
+if ('serviceWorker' in navigator) { 
+  window.addEventListener('load', function() {   
+    navigator.serviceWorker.register('/sw.js').then(
+      function(registration) { 
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope); 
+      }, 
+      function(err) { 
+        // registration failed :( 
+        console.log('ServiceWorker registration failed: ', err); 
+      }); 
+  });
+}
+</script>
+
+  </head>
+<body>
+   <header class="header">
+      <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
+         <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+               <!--<img src="images/logo.png" alt="" width="150" height="35">-->
+               <h1 class="header__title">GDG FastFood</h1>
+            </a>
+
+
+            <button class="button navbar-burger is-info" data-target="navMenu">
+               <span></span>
+               <span></span>
+               <span></span>
+            </button>
+         </div>
+
+         <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end" id="navMenu">
+               <a class="navbar-item" href="index.html">Home</a>
+               <a class="navbar-item" href="about.html">About</a>
+               <a class="navbar-item" href="services.html">Services</a>
+               <a class="navbar-item" href="contact.html">Contact</a>
+            </div>
+         </div>
+
+      </nav>    
+   </header>
+
+<section class="hero-lg ">
+  <div class="hero-body">
+    <p>
+      Welcome to GDG Fast Food
+    </p>
+    <span>
+      The best source of coders' meals.
+    </span>
+  </div>
+</section>
+<section class="grid columns is-info">
+   <div class="column">
+      <img src="images/truck.svg" class="image is-64x64">
+      <h4 class="subtitle">Fast Delivery</h4>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+   </div>
+   <div class="column">
+      <img src="images/earth.svg" class="image is-64x64">
+      <h4 class="subtitle">Global Reach</h4>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+      
+   </div>
+   <div class="column">
+      <img src="images/embed.svg" class="image is-64x64">
+      <h4 class="subtitle">Coded Meals</h4>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+      
+   </div>
+</section>
+
+
+
+   <section class="section">
+<div class="container">
+   <main class="main">
+      <h3 class="title">Our Delicacies</h3>
+
+      <div class="columns is-multiline">
+         <div class="column is-one-third-widescreen">
+            <div class="card">
+               <div class="card-image">
+                  <figure class="image is-4by3">
+                     <img src="images/1.jpg" alt="Placeholder image">
+                  </figure>
+               </div>
+               <div class="card-content">
+                  <div class="content">
+                     <p class="title">Hello world</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="column is-one-third-widescreen">
+            <div class="card">
+               <div class="card-image">
+                  <figure class="image is-4by3">
+                     <img src="images/5.jpg" alt="Placeholder image">
+                  </figure>
+               </div>
+               <div class="card-content">
+                  <div class="content">
+                     <p class="title">Hello world</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="column is-one-third-widescreen">
+            <div class="card">
+               <div class="card-image">
+                  <figure class="image is-4by3">
+                     <img src="images/6.jpg" alt="Placeholder image">
+                  </figure>
+               </div>
+               <div class="card-content">
+                  <div class="content">
+                     <p class="title">Hello world</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="column is-one-third-widescreen">
+            <div class="card">
+               <div class="card-image">
+                  <figure class="image is-4by3">
+                     <img src="images/2.jpg" alt="Placeholder image">
+                  </figure>
+               </div>
+               <div class="card-content">
+                  <div class="content">
+                     <p class="title">Hello world</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="column is-one-third-widescreen">
+            <div class="card">
+               <div class="card-image">
+                  <figure class="image is-4by3">
+                     <img src="images/3.jpg" alt="Placeholder image">
+                  </figure>
+               </div>
+               <div class="card-content">
+                  <div class="content">
+                     <p class="title">Hello world</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="column is-one-third-widescreen">
+            <div class="card">
+               <div class="card-image">
+                  <figure class="image is-4by3">
+                     <img src="images/4.jpg" alt="Placeholder image">
+                  </figure>
+               </div>
+               <div class="card-content">
+                  <div class="content">
+                     <p class="title">Hello world</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Phasellus nec iaculis mauris.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </main>
+      </div>
+   </section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>GDG Fast food</strong>. The foods served at our fast food are by-products of millions of lines of code.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+  	<!--<div class="loader">
+    	<!--<svg viewBox="0 0 32 32" width="32" height="32">
+      	<circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+    	</svg>--
+  	</div>-->
+
+   <script src="js/app.js"></script>
+
+</body>
+</html>
